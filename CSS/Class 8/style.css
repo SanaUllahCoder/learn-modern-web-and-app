@@ -1,0 +1,22 @@
+
+.abc{
+    color: #f7c4c4;
+}
+
+.def{
+    color: rgb(201, 201, 235);
+}
+
+.gh{
+    color: rgb(194, 218, 194);
+}
+
+#abc{
+    background: #704c4c;
+}
+#def{
+    background: #4c704c;
+}
+#gh{
+    background: #4c4c70;
+}
