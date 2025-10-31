@@ -1,0 +1,47 @@
+.main{
+    background: #000;
+    display: flex;
+    padding: 20px;
+    height: 300px;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    align-items: center;
+}
+
+.one{
+    background: rebeccapurple;
+    padding: 10px;
+    border-radius: 10px;
+    order: 1;
+}
+
+.two{
+    background: green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.three{
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+    order: 1;
+}
+
+.four{
+    background: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.five{
+    background: #2f8bc9;
+    padding: 10px;
+    border-radius: 10px;
+}
