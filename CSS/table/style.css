@@ -1,0 +1,41 @@
+table {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+td:hover {
+    background: white;
+    color: black;
+    transform: scale(0.8);
+    transition: 3s;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+}
+
+input {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.email {
+    background-image: url('https://png.pngtree.com/png-clipart/20191120/original/pngtree-email-icon-png-image_5065641.jpg');
+    background-position: left;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+button {
+    box-shadow: 9px 7px 3px 3px red;
+    color: red;
+}

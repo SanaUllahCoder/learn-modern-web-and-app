@@ -1,0 +1,33 @@
+
+.parent{
+    background-color: black;
+    /* position: relative; */
+    height: 400px;
+
+}
+
+.child1{
+    background: #923030;
+    position: absolute;
+    /* width: 100px; */
+    height: 20px;
+    top: 700px;
+}
+
+.child2{
+    background: #34a343;
+    position: absolute;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+
+}
+
+.child3{
+    background-color: #424bd1;
+}
