@@ -5,7 +5,11 @@
 1. string
 2. number
 3. undefined
-4. 
+4. null
 5. 
-6. 
-7. 
+
+// non primtive data types
+1. object
+2. array
+3. function
+

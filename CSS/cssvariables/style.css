@@ -1,0 +1,25 @@
+:root{
+    --bgColor : red;
+    --bgColor2 : yellow;
+
+}
+
+td{
+    background: rgb(121, 39, 39);
+    border: 1px solid black;
+    padding: 20px 30px;
+}
+
+@keyframes identifier {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+table.one {
+    animation: identifier 1s linear;
+}
+
