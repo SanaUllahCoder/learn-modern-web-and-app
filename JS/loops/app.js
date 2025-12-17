@@ -25,7 +25,7 @@ var userInput = +prompt()
 var userresult = +prompt()
 
 for (var i = 1; i <= userresult; i++){
-    if (userInput && userresult < 1){
+    if (userInput && userresult >= 1){
     document.write(userInput + 'x' + i  + '=' +userInput * i + '<br>')
     }else{
         alert('please enter valid number')
