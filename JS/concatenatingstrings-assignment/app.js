@@ -47,7 +47,7 @@ var userName = "SanaUllahSiddiqui";
 alert("Thanks, " + userName + "!");
 // Answer: output "Thanks, SanaUllahSiddiqui!"
 
-Q12: 
+// Q12: 
 var message = "Thanks, ";
 var banger = "!";
 var userName = "SanaUllahSiddiqui";
