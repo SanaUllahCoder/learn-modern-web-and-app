@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roll Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="dice-area">
+        <section class="card">
+            <div class="players" id="players">
+                <div class="player active" data-index="0">
+                    <div class="player-name">Player 1</div>
+                    <div class="player-score">Score: <span class="score">0</span></div>
+                    <div class="player-last">Last: <span class="last">—</span></div>
+                </div>
+                <div class="player" data-index="1">
+                    <div class="player-name">Player 2</div>
+                    <div class="player-score">Score: <span class="score">0</span></div>
+                    <div class="player-last">Last: <span class="last">—</span></div>
+                </div>
+                <div class="player" data-index="2">
+                    <div class="player-name">Player 3</div>
+                    <div class="player-score">Score: <span class="score">0</span></div>
+                    <div class="player-last">Last: <span class="last">—</span></div>
+                </div>
+                <div class="player" data-index="3">
+                    <div class="player-name">Player 4</div>
+                    <div class="player-score">Score: <span class="score">0</span></div>
+                    <div class="player-last">Last: <span class="last">—</span></div>
+                </div>
+            </div>
+
+            <div class="dice-container">
+                <img id="dice1" src="dice1.svg" alt="dice 1">
+                <img id="dice2" src="dice2.svg" alt="dice 2">
+            </div>
+
+            <div class="controls">
+                <button id="rollButton">Roll Dice</button>
+                <button id="resetButton" class="muted">Reset</button>
+            </div>
+
+            <p id="result" class="result">Click "Roll Dice" to play.</p>
+        </section>
+        <footer class="credit">UI updated — SVG dice included</footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
