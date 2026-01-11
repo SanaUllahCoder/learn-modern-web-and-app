@@ -8,11 +8,24 @@
 </head>
 <body>
     
-    <input type="text" placeholder="Add your task here..." id="taskInput">
-    <button onclick="addTodo()">Add Todo</button>
+    <div class="todo-app">
+        <div class="header">
+            <h1>Todo List</h1>
+        </div>
 
-    <ul id="ul"></ul>
-    
+        <div class="input-row">
+            <input type="text" placeholder="Add your task here..." id="taskInput">
+            <button id="addBtn" onclick="addTodo()">Add Todo</button>
+        </div>
+
+        <ul id="ul" class="todo-list" aria-live="polite"></ul>
+
+        <div class="footer">
+            <span class="count"><span id="count">0</span> items</span>
+            <button class="clear-btn" onclick="clearCompleted()">Clear completed</button>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
